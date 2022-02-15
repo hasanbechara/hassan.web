@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>	
+	<title>homepage</title>
+	<style type="text/css">
+		div {background-color: #2E4053;;}
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+		
+	</style>
+	<style >
+	     .fa {
+         padding: 20px;
+         font-size: 30px;
+         width: 50px;
+         text-align: center;
+          text-decoration: none;
+      margin: 5px 2px;
+        
+        }
+        .fa:hover {
+      opacity: 0.7;
+            
+        }
+         .fa-facebook {
+          background: #3B5998;
+          color: white;
+              }
+         .fa-youtube {
+         background: #bb0000;
+          color: white;
+         }
+         .fa-instagram {
+         background: #125688;
+         color: white;
+          }
+
+          .fa-twitter {
+         background: #55ACEE;
+         color: white;
+        }       
+
+         .fa:hover {
+         opacity: 0.7;
+        }
+    }  
+    .container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+    .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}    
+{
+  scroll-behavior: smooth;
+}
+
+</style>		
+ </head>
+<body style="background-color: #2E4053">
+	<div>
+  <a href="homepage.html">Home page</a>
+  <ul>
+    <li>
+      <a href="#">biography Link</a>
+      <ul>
+        <li><a href="storylife.html">The story of his life</a></li>
+        <li><a href="image.html">image</a></li>
+        <li><a href="video.html">video</a></li>
+      </ul>
+    </li>
+    <a href="signup.html">signup</a>
+  </ul>
+  <a href="https://www.facebook.com/BeethovenOfficialPage/" class="fa fa-facebook"style="width: 80px;margin-left: 500px"></a>
+<a href="https://twitter.com/beethoven250" class="fa fa-twitter"style="width: 80px;"></a>
+<a href="https://www.youtube.com/watch?v=W-fFHeTX70Q" class="fa fa-youtube"style="width: 80px;"></a>
+<a href="https://beethovenchannel.com/instagram.html" class="fa fa-instagram" style="width: 80px;"></a>
+<div class="container">
+  <img src="b0acaf81-8ed5-450b-8603-18ca74ec515b.jpg"alt="pic" width="1500" height="600" >
+    <div class="top-left" style="top: 300px ;background-color:#FFE4B5;font-size:40px;font-family: 'Brush Script MT', cursive; ">“Music is the electrical "</div>
+     <div class="top-left" style="top: 370px ;background-color:#FFE4B5;font-size:40px;font-family: 'Brush Script MT', cursive; "> soil in which the spirit lives,</div>
+      <div class="top-left" style="top: 440px ;background-color:#FFE4B5;font-size:40px;font-family: 'Brush Script MT', cursive; ">  thinks and invents.”,</div>
+      <div class="top-left" style="top: 510px ;background-color:#FFE4B5;font-size:40px;font-family: 'Brush Script MT', cursive; ">  — Ludwig van Beethoven,</div>
+
+ </div>
+</div>
+</div>
+</body>
+	<body>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+ * {box-sizing: border-box}
+ .mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="391322.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="571441.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="523783.jpg" style="width:100%">
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+ </div>
+ <script>
+ var slideIndex = [1,1];
+ var slideId = ["mySlides1", "mySlides2"]
+ showSlides(1, 0);
+ showSlides(1, 1);
+
+ function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+ }
+
+ function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+ }
+ </script>
+</body>
+</html>
